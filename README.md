@@ -1,73 +1,104 @@
-Student Information Management System
-This repository contains two implementations of a Student Information Management System, one written in Python and the other in PHP. Both programs allow you to manage student data (name, roll number, and marks) by adding, searching, updating, deleting, and displaying student information using file operations.
+# Student Information Management System
 
-Features
-Add a student's information (name, roll number, marks)
-Search for student data by roll number
-Update student details
-Delete student information
-Display all students' information in a structured format
-Languages Used
-Python: A simple command-line interface version of the system using text file operations.
-PHP: A similar version to the Python implementation, designed to run in a command-line environment with the same functionality.
-Requirements
-Python Version:
-Python 3.x installed on your system.
-PHP Version:
-PHP 7.x or later installed and configured with the correct environment variables.
-Installation and Setup
-Python:
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/student-info-management.git
-cd student-info-management
-Navigate to the Python folder:
-bash
-Copy code
-cd python-version
-Run the Python script:
-bash
-Copy code
-python student_info.py
-PHP:
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/student-info-management.git
-cd student-info-management
-Navigate to the PHP folder:
-bash
-Copy code
-cd php-version
-Run the PHP script:
-bash
-Copy code
-php student_info.php
-Usage
-After running either version of the program, you will be prompted with a menu to:
+This repository contains two versions of a simple student information management system, implemented in both **PHP** and **Python**. The program allows you to perform basic operations such as adding, searching, updating, and deleting student records. The data is stored in a plain text file.
 
-Add a new student
-Read all students' information
-Search for a student by roll number
-Update an existing student's data
-Delete a student’s record
-Exit the program
-Follow the on-screen prompts to interact with the system.
+## Features
 
-Example
-bash
-Copy code
-Enter choice:
+- Add student information (Name, Roll Number, Marks)
+- Search for a student by their ID
+- Update student records
+- Delete student records
+- Display all student information
+
+## Technologies Used
+
+- **PHP** (for the PHP version)
+- **Python** (for the Python version)
+- Data stored in a text file (`student_info.txt`)
+
+## PHP Version
+
+### Requirements
+
+- PHP 7.0 or higher
+
+### Running the PHP Version
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sanketbhuite/student-info-management.git
+   cd student-info-management
+   ```
+
+2. Make sure PHP is installed and the environment variables are correctly set.
+
+3. Run the PHP program:
+   ```bash
+   php student_info.php
+   ```
+
+4. Follow the prompts to interact with the program.
+
+### Example Usage
+
+```bash
+Enter choice
 1: Add the Student ID
 2: Read the Information
 3: Search the Student ID
 4: Update the Data
 5: Delete the Data
 6: Exit
-File Structure
-python-version/: Contains the Python implementation.
-php-version/: Contains the PHP implementation.
-student_info.txt: The file where student information is stored.
-License
+```
+
+## Python Version
+
+### Requirements
+
+- Python 3.x
+
+### Running the Python Version
+
+1. Clone the repository (if not done already):
+   ```bash
+   git clone https://github.com/sanketbhuite/student-info-management.git
+   cd student-info-management
+   ```
+
+2. Run the Python program:
+   ```bash
+   python student_info.py
+   ```
+
+3. Follow the prompts to interact with the program.
+
+### Example Usage
+
+```bash
+Enter choice
+1: Add the Student ID
+2: Read the Information
+3: Search the Student ID
+4: Update the Data
+5: Delete the Data
+6: Exit
+```
+
+## File Structure
+
+```bash
+student-info-management/
+│
+├── student_info.php      # PHP implementation
+├── student_info.py       # Python implementation
+├── student_info.txt      # Data storage file
+└── README.md             # Project documentation
+```
+
+## Contributing
+
+If you would like to contribute to this project, feel free to submit a pull request or open an issue.
+
+## License
+
 This project is licensed under the MIT License.
